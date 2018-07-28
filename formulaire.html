@@ -2,7 +2,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="">
+
     <style>
       body {
         margin: 0;
@@ -19,13 +24,29 @@
         padding : 10px;
         padding-left: 71%;
       }
+      .logo{
+        width: 50px;
+        height: 50px
+
+      }
+      text{font-family : arial ; font-weight : bold}
+  .forme{font-size : 60px ;  text-shadow : 5px 5px 5px grey ; stroke : navy ; stroke-width : 2px ; fill : aqua; }
+</style>
+
+
+      <svg width="100%" height="auto" viewBox ="0 0 900 100"
+        style = 'background : linear-gradient( 20deg, navy, aqua,white );'> 
+        <text x= "900" y ='60' width = '100' height = '60' class ='forme'>Mon Premier Formulaire 😉 !</text>
+      </svg>
     </style>
   </head>
   <body>
     <div id="gauche">
     </div>
     <div id="droite">
-      Utilisez ces boutons pour créer votre formulaire<br><br>
+      <div id="bl" style="visibility: visible"><font size=+2 color=green><img class="logo" src="ass.png">
+      Utilisez ces boutons pour créer votre formulaire 👇🏻 </font></div> 
+<br><br>
       <button>Label</button>
       <button>Zone de texte</button>
       <button>Bouton</button>
@@ -35,6 +56,6 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-    <script src="activite2.js"></script>
+    <script src="style.js"></script>
   </body>
 </html>
